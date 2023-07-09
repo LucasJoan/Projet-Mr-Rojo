@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-      <head>
-            <title></title>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link href="css/style.css" rel="stylesheet">
-      </head>
-      <body>
-            <h1>hello</h1>
-            <form action="Welcome/index" method="POST">
-                  <input type="text" name="nom" value="">
-                  <input type="text" name="Prenom" value="">
-                  <input type="text" name="email" value="">
-                  <input type="password" name="mdp" value="">
-                  <input type="submit" value="inserer">  
-            </form>
-            
-      </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css">
+    <title>Examen Web</title>
+</head>
+<body>
+    
+<div class="wrapper">
+    
+    <div class="text-center mt-4 name">
+        BIENVENUE
+    </div>
+    <form class="p-3 mt-3">
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-user"></span>
+            <input type="text" name="nom" id="nom" placeholder="Entrez votre nom">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="mdp" name="prenom" id="prenom" placeholder="Entrez votre prénom">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="far fa-user"></span>
+            <input type="text" name="email" id="email" placeholder="Entrez votre email">
+        </div>
+        <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="mdp" name="mdp" id="mdp" placeholder="Entrez votre mot de passe">
+        </div>
+        <button class="btn mt-3">S'inscrire</button>
+    </form>
+    <div class="text-center fs-6">
+        <a href="#">Avez vous déja un compte?</a> ou <a href="Login.html">Connectez</a>
+    </div>
+</div>
+
+</body>
 </html>
