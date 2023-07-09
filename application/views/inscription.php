@@ -20,7 +20,7 @@
         </div>
         <div class="form-field d-flex align-items-center">
             <span class="fas fa-key"></span>
-            <input type="mdp" name="prenom" id="prenom" placeholder="Entrez votre prénom">
+            <input type="mdp" name="prenom" id="Prenom" placeholder="Entrez votre prénom">
         </div>
         <div class="form-field d-flex align-items-center">
             <span class="far fa-user"></span>
