@@ -1,5 +1,5 @@
 <?php 
-      class client extends CI_Model
+      class InsertUtilisateur extends CI_Model
       {
             public function __construct()
             {
@@ -7,9 +7,9 @@
                   $this->load->database();
             }
 
-            public function insert_client($data)
+            public function InsertUtilisateur($data)
             {
-                  $this->db->insert('user',$data);
+                  $this->db->insert('utilisateur',$data);
             }
       }
 ?>

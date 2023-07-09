@@ -18,33 +18,38 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
 	public function index()
-	{
-		$this->load->helper('url');
-		$this->load->database();
-		$this->load->model('Client');
-		
-		// Récupérer les valeurs des champs
-		$nom = $this->input->post('nom');
-		$email = $this->input->post('email');
-		$mdp = $this->input->post('mdp');
-		$identification = $this->input->post('identification');
-		
-		// Vérifier si le champ 'nom' n'est pas vide
-		if (!empty($nom)) {
-			$data = array(
-				'nom' => $nom,
-				'email' => $email,
-				'mdp' => $mdp,
-				'identification' => $identification
-			);
-			
-			// Insérer les données dans la base de données
-			$this->Client->insert_client($data);
-		}
-		
-		$this->load->view('index');
-	}
+{
+    $this->load->helper('url');
+    $this->load->database();
+    $this->load->model('Insertutilisateur');
+    
+    // Récupérer les valeurs des champs
+    $nom = $this->input->post('nom');
+    $Prenom = $this->input->post('Prenom');
+    $email = $this->input->post('email');
+    $mdp = $this->input->post('mdp');
+    
+    // Vérifier si le champ 'nom' n'est pas vide
+    if (!empty($nom)) {
+        $data = array(
+            'nom' => $nom,
+            'Prenom' => $Prenom,
+            'email' => $email,
+            'mdp' => $mdp,
+        );
+        
+        // Insérer les données dans la base de données
+        $this->Insertutilisateur->insertUtilisateur($data);
+    }
+    
+    $this->load->view('inscription');
+    // redirect('Login');
+}
+
+	
+
 
 	
 		// model

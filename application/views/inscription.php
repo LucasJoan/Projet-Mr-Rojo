@@ -10,9 +10,9 @@
             <h1>hello</h1>
             <form action="Welcome/index" method="POST">
                   <input type="text" name="nom" value="">
+                  <input type="text" name="Prenom" value="">
                   <input type="text" name="email" value="">
                   <input type="password" name="mdp" value="">
-                  <input type="text" name="identification" value="">
                   <input type="submit" value="inserer">  
             </form>
             
