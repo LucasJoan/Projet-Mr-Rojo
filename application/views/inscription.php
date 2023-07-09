@@ -28,7 +28,7 @@
         </div>
         <div class="form-field d-flex align-items-center">
             <span class="fas fa-key"></span>
-            <input type="mdp" name="mdp" id="mdp" placeholder="Entrez votre mot de passe">
+            <input type="password" name="mdp" id="mdp" placeholder="Entrez votre mot de passe">
         </div>
         <button class="btn mt-3">S'inscrire</button>
     </form>
