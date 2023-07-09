@@ -9,11 +9,3 @@ create table utilisateur(
     mdp varchar(30)
 );
 
-create table inscription(
-    id_inscription int primary key auto_increment,
-    Nom varchar(20),
-    Prenom varchar(10),
-    email varchar(20),
-    mdp varchar(30),
-    Remdp varchar(30)
-);
