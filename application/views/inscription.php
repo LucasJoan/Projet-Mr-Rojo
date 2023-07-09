@@ -33,7 +33,7 @@
         <button class="btn mt-3">S'inscrire</button>
     </form>
     <div class="text-center fs-6">
-        <a href="#">Avez vous déja un compte?</a> ou <a href="Login.html">Connectez</a>
+        <a href="#">Avez vous déja un compte?</a> ou <a href="Login.php">Connectez</a>
     </div>
 </div>
 
