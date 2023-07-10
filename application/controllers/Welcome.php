@@ -50,7 +50,7 @@ class Welcome extends CI_Controller {
 
 public function lien()
 {
-    $this->load->view('Login')
+    $this->load->view('Login');
 }	
 
 
