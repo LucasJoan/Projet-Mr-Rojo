@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/inscription.css">
+    <link rel="stylesheet" href="<?php echo base_url('Projet-Mr-Rojo/assets/inscription.css')?>">
     <title>Examen Web</title>
 </head>
 <body>
