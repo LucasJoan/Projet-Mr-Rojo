@@ -17,7 +17,7 @@
                 $this->session->set_userdata('idUser',$user->getIdUser());
             }
             if($this->session->userdata('idUser') == null){
-                $this->load->view('Projet-Mr-Rojo/application/views/index');
+                $this->load->view('index');
             }else{
                 redirect('');
             }
