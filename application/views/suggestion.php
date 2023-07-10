@@ -28,6 +28,6 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
-  <script src="sug.js"></script>
+  <script src="suggestion.js"></script>
 </body>
 </html>
