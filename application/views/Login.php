@@ -13,14 +13,14 @@
     <div class="text-center mt-4 name">
         BIENVENUE
     </div>
-    <form class="p-3 mt-3">
+    <form class="p-3 mt-3"methode='POST' action='Controlleurlogin/Login'>
         <div class="form-field d-flex align-items-center">
             <span class="far fa-user"></span>
             <input type="text" name="email" id="email" placeholder="Entrez votre email">
         </div>
         <div class="form-field d-flex align-items-center">
             <span class="fas fa-key"></span>
-            <input type="mdp" name="mdp" id="mdp" placeholder="Entrez votre mot de passe">
+            <input type="password" name="mdp" id="mdp" placeholder="Entrez votre mot de passe">
         </div>
         <button class="btn mt-3">Login</button>
     </form>
