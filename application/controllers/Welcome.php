@@ -30,8 +30,7 @@ class Welcome extends CI_Controller {
     $Prenom = $this->input->post('Prenom');
     $email = $this->input->post('email');
     $mdp = $this->input->post('mdp');
-    
-    // Vérifier si le champ 'nom' n'est pas vide
+
     if (!empty($nom)) {
         $data = array(
             'nom' => $nom,
@@ -39,24 +38,14 @@ class Welcome extends CI_Controller {
             'email' => $email,
             'mdp' => $mdp,
         );
-        
-        // Insérer les données dans la base de données
         $this->Insertutilisateur->insertUtilisateur($data);
     }
-    
     $this->load->view('inscription');
-    // redirect('Login');
 }
 
 public function lien()
 {
     $this->load->view('Login');
 }	
-
-
-	
-		// model
-		
-	
 	
 }
