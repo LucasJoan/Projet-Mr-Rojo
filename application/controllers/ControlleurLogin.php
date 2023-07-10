@@ -1,5 +1,6 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 class ControllerLogin extends CI_Controller
 {
     public function __construct()
@@ -23,6 +24,8 @@ class ControllerLogin extends CI_Controller
         } else {
             $this->load->view('Projet-Mr-Rojo/views/index');
 =======
+=======
+>>>>>>> d250d4d7f1bc9fc55ce4934e47f332d9c6d93efb
     class ControllerLogin extends CI_Controller
       {
             public function __construct() 
@@ -45,8 +48,10 @@ class ControllerLogin extends CI_Controller
             }else{
                 redirect('');
             }
+<<<<<<< HEAD
 >>>>>>> 090bd552c9892e74366eeaf2c3248d6eb82c015c
+=======
+>>>>>>> d250d4d7f1bc9fc55ce4934e47f332d9c6d93efb
         }
-    }
-}
+      }
 ?>
