@@ -13,14 +13,14 @@
     <div class="text-center mt-4 name">
         BIENVENUE
     </div>
-    <form class="p-3 mt-3">
+    <form class="p-3 mt-3" method='POST' action='Welcome/index'>
         <div class="form-field d-flex align-items-center">
             <span class="far fa-user"></span>
             <input type="text" name="nom" id="nom" placeholder="Entrez votre nom">
         </div>
         <div class="form-field d-flex align-items-center">
             <span class="fas fa-key"></span>
-            <input type="mdp" name="prenom" id="Prenom" placeholder="Entrez votre prénom">
+            <input type="mdp" name="Prenom" id="Prenom" placeholder="Entrez votre prénom">
         </div>
         <div class="form-field d-flex align-items-center">
             <span class="far fa-user"></span>
@@ -33,7 +33,8 @@
         <button class="btn mt-3">S'inscrire</button>
     </form>
     <div class="text-center fs-6">
-        <a href="#">Avez vous déja un compte?</a> ou <a href="Login.php">Connectez</a>
+        <a href="#">Avez vous déja un compte?</a> ou 
+        <a href="views/Login.php">Connectez</a>
     </div>
 </div>
 
