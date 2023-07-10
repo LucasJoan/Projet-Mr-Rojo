@@ -19,7 +19,7 @@
             if($this->session->userdata('idUser') == null){
                 $this->load->view('Login/Index');
             }else{
-                redirect('index');
+                redirect('Projet-Mr-Rojo/views/index');
             }
         }
       }
