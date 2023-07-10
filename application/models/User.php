@@ -8,8 +8,6 @@
             private $identification;
       public function login()
       {
-        $this->db->where('nom', $this->getNom());
-        $this->db->where('Prenom', $this->getPrenom());
         $this->db->where('email', $this->getEmail());
         $this->db->where('mdp', $this->getMotDePasse());
         $query = $this->db->get('utilisateur');
