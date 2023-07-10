@@ -10,8 +10,8 @@
             $this->load->library('session');
             $this->load->helper('url');
             $email = $this->input->post('email');
-            $mdp = $this->input->post('mdp');
-            $user = new User(null,null,$email,$mdp,null);
+            $password = $this->input->post('password');
+            $user = new User(null,null,$email,$password,null);
             $user = $user->login();
             if($user != null){
                 $this->session->set_userdata('idUser',$user->getIdUser());
@@ -23,8 +23,4 @@
             }
         }
       }
-            public function lien()
-      {
-            $this->load->view('index');
-      }	
-      ?>
+?>
