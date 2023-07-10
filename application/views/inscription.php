@@ -34,7 +34,7 @@
     </form>
     <div class="text-center fs-6">
         <a href="#">Avez vous déja un compte?</a> ou 
-        <a href="Welcome/lien">Connectez</a>dfgdfgdfgdfgdfgdfg
+        <a href="Welcome/lien">Connectez</a>
     </div>
 </div>
 
