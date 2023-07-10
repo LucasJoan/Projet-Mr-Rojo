@@ -48,7 +48,10 @@ class Welcome extends CI_Controller {
     // redirect('Login');
 }
 
-	
+public function lien()
+{
+    $this->load->view('Login')
+}	
 
 
 	
