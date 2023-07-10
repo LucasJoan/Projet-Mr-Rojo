@@ -26,8 +26,8 @@ document.getElementById('suggestionForm').addEventListener('submit', function(ev
       suggestionsContainer.appendChild(ul);
       document.getElementById('exportBtn').disabled = false; 
     }
+  });
   
-
   
   document.getElementById('clearBtn').addEventListener('click', function() {
     document.getElementById('suggestionForm').reset();
@@ -41,7 +41,7 @@ document.getElementById('suggestionForm').addEventListener('submit', function(ev
     if (objectif === 'perdre') {
       if (duree >= 7) {
         suggestions.push('Regime equilibre avec une alimentation riche en fruits et legumes');
-        suggestions.push('Activites sportives variees, telles que la course à pied, le velo et la natation');
+        suggestions.push('Activites sportives variées, telles que la course à pied, le velo et la natation');
       } else {
         suggestions.push('Adoptez une alimentation saine et evitez les aliments transformes');
         suggestions.push('Faites au moins 30 minutes d\'exercice cardiovasculaire par jour');
